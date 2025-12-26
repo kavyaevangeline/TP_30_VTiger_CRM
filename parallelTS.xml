@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="genericUtilities.Listnerimp"></listener>
+	</listeners>
+  <test name=" TestRunner-1">
+    <classes>
+     
+      <class name="calendar.CreateCalendarTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TestRunner-2">
+    <classes>
+   
+      <class name="contact.CreateContact_Test"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TestRunner-3">
+    <classes>
+     
+      <class name="Documents.CreateDocumnetTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TestRunner-4">
+    <classes>
+     
+      <class name="opportunities.CreateOpportunitiesTest"/>
+      <class name="opportunities.DeleteOppurtunitiesTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TestRunner-5">
+    <classes>
+     
+      <class name="organisation.CreateOrgWithMandatoryFieldTest"/>
+      <class name="organisation.CreateOrgWithIndustryDDTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TestRunner-6">
+    <classes>
+    
+      <class name="products.CreateProductsTest"/>
+   
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TestRunner-7">
+    <classes>
+     
+       <class name="trobleTickets.CreateTicketTest"/>
+      <class name="trobleTickets.DeleteTicketsTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
