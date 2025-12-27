@@ -20,6 +20,7 @@ public class Demo1 extends BaseClass{
 	public void wish()
 	{
 		System.out.println("Happy new year");
+		System.out.println("----2026----");
 	}
 
 }
