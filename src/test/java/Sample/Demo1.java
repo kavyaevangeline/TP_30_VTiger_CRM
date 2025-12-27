@@ -15,5 +15,11 @@ public class Demo1 extends BaseClass{
 	public void test2() {
 		System.out.println("test-2");
 	}
+	
+	@Test
+	public void wish()
+	{
+		System.out.println("Happy new year");
+	}
 
 }
